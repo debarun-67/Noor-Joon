@@ -32,17 +32,17 @@
 .shayari {
     text-align: center;
     position: relative; /* Ensures it stays above background */
-    padding: 20px;
+    padding: 10px;
 }
 
 .hindi {
     font-family: "Charmonman";
-    font-size: 38px;
+    font-size: 40px;
     font-weight: 700;
     text-align: center;
     color: rgb(0, 0, 0);
     background: rgba(251, 251, 251, 0.718); /* Light background for readability */
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px; /* Softens edges */
 }
 
