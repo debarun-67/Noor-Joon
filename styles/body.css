@@ -1,33 +1,41 @@
-.love{
+body {
+    background-image: url("/images/love.png"); /* Path to heart image */
+    background-size: 100px; /* Small heart size */
+    background-repeat: repeat; /* Repeats hearts across the page */
+    background-position: center;
+    background-attachment: fixed; /* Keeps hearts fixed in background */
+    opacity: 0.99; /* Slight transparency for hearts */
+}
+
+.love {
     font-size: 30px;
     font-family: "Love Ya Like A Sister";
     text-align: center;
-
+    color: red;
+    font-weight: bold;
 }
 
-
-
-.shayari{
-
-    align-content: center;
+.shayari {
+    text-align: center;
+    position: relative; /* Ensures it stays above background */
+    padding: 20px;
 }
-
 
 .hindi {
-    font-family : "Charmonman";
+    font-family: "Charmonman";
     font-size: 38px;
     font-weight: bold;
     text-align: center;
     color: rgb(0, 0, 0);
-    word-wrap: normal;
-
+    background: rgba(251, 251, 251, 0.718); /* Light background for readability */
+    padding: 10px;
+    border-radius: 10px; /* Softens edges */
 }
 
 .p {
-
-    margin-top:0px;
+    margin-top: 0px;
 }
 
 .lovesigns {
-    color:#F76A6A;
+    color: #F76A6A;
 }
