@@ -101,7 +101,7 @@ button {
     max-width: 100%; /* Prevents overflowing */
     font-size: 30px; /* Adjust size for better readability on mobile */
     font-weight: bolder;
-    text-align: justify;
+    text-align: left;
 
 }
 
