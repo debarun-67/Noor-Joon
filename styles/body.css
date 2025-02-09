@@ -1,6 +1,4 @@
 .love{
-    display: flex;
-    height:50px;
     font-size: 30px;
     font-family: "Love Ya Like A Sister";
     text-align: center;
@@ -10,7 +8,7 @@
 
 
 .shayari{
-    display: flex;
+
     align-content: center;
 }
 
