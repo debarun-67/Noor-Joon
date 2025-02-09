@@ -1,0 +1,14 @@
+
+.search{
+    width:900px;
+    height:50px;
+    font-size: 30px;
+    font-family: "Love Ya Like A Sister";
+    text-align: center;
+
+}
+
+.search::placeholder{
+
+    text-align: center;
+}
