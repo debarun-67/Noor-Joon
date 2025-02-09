@@ -91,7 +91,7 @@ button {
 }
 
 .message {
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -100,6 +100,8 @@ button {
     word-wrap: break-word; /* Ensures long words break */
     max-width: 100%; /* Prevents overflowing */
     font-size: 30px; /* Adjust size for better readability on mobile */
+    font-weight: bolder;
+    text-align: justify;
 
 }
 
@@ -107,7 +109,10 @@ button {
 width:200px;
 height:50px;
 font-size:25px;
-background-color: rgb(234, 130, 199);
+background-color: rgb(209, 225, 210);
+border-radius: 10px;
+border-width: 5px;
+border-color: rgb(152, 184, 211);
 }
 
 
@@ -133,7 +138,7 @@ background-color: rgb(234, 130, 199);
 
 .transl{
     font-size: 50px;
-    background-color: white;
+    background-color: rgb(243, 197, 197);
 }
 
 .misl {
@@ -145,4 +150,9 @@ background-color: rgb(234, 130, 199);
 .joon {
     font-family: caveat;
     font-size: 50px;
+}
+
+
+.start{
+    background-color:rgb(221, 233, 187);
 }
