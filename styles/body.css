@@ -48,6 +48,7 @@
 
 .p {
     margin-top: 0px;
+    font-size: 30px;
 }
 
 .lovesigns {
@@ -79,9 +80,10 @@ button {
     margin: 10px;
     cursor: pointer;
     border: none;
-    background-color: pink;
+    background-color: rgb(211, 30, 60);
     color: white;
     font-weight: bold;
+    border-radius: 10px;
 }
 
 .emoji {
@@ -91,4 +93,56 @@ button {
 .message {
     font-size: 25px;
     font-weight: bold;
+}
+
+.question-qu pre {
+    white-space: pre-wrap; /* Allows text to wrap */
+    word-wrap: break-word; /* Ensures long words break */
+    max-width: 100%; /* Prevents overflowing */
+    font-size: 30px; /* Adjust size for better readability on mobile */
+
+}
+
+.answers {
+width:200px;
+height:50px;
+font-size:25px;
+background-color: rgb(234, 130, 199);
+}
+
+
+.answer::placeholder{
+    color:aliceblue;
+
+}
+
+.question-text{
+    font-size: 30px;
+}
+
+.english {
+    font-family: "Charmonman";
+    font-size: 38px;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    background: rgba(251, 251, 251, 0.718); /* Light background for readability */
+    padding: 10px;
+    border-radius: 10px; /* Softens edges */
+}
+
+.transl{
+    font-size: 50px;
+    background-color: white;
+}
+
+.misl {
+    font-family: "Loved by the king";
+    text-align: center;
+}
+
+
+.joon {
+    font-family: caveat;
+    font-size: 50px;
 }

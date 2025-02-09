@@ -7,15 +7,14 @@
     <link rel="stylesheet" href="../styles/general.css" />
     <link rel="stylesheet" href="../styles/body.css" />
     <link rel="stylesheet" href="../styles/header.css" />
+    <script defer src="/codes/main.js"></script>
 </head>
 <body>
     <div class="container">
-        <h1>Answer the question to proceed</h1>
-        <p class="question-text">[Your Question Here]</p>
-        <form action="/codes/validate.php" method="post">
-            <input type="text" name="answer" placeholder="Type your answer..." required>
-            <button type="submit">Submit</button>
-        </form>
+        <h1>You think you can see whats in this? Then answer the question...</h1>
+        <p class="question-text">What is my name for you?</p>
+        <input class="answers" type="text" id="answer" placeholder="Write With Love">
+        <button onclick="checkAnswer()">Check</button>
     </div>
 </body>
 </html>

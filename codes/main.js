@@ -1,16 +1,21 @@
 function checkAnswer() {
     let answer = document.getElementById("answer").value.trim().toLowerCase();
-    if (answer === "joon") {
-        window.location.href = "/question.html";
+    if (answer.includes("joon")) {
+        window.location.href = "./codes/question.html";
     } else {
-        window.location.href = "/rejection.html";
+        window.location.href = "./codes/rejection.html";
     }
 }
 
 function goToFinal() {
-    window.location.href = "/third.html";
+    window.location.href = "./third.html";
 }
 
 function showEmojiPage() {
-    window.location.href = "emoji.html"
+    window.location.href = "./emoji.html"
 }
+
+function meaning() {
+    window.location.href = "./meaning.html"
+}
+
