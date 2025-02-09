@@ -1,10 +1,10 @@
-body {
+.loved {
     background-image: url("/images/love.png"); /* Path to heart image */
     background-size: 100px; /* Small heart size */
     background-repeat: repeat; /* Repeats hearts across the page */
     background-position: center;
     background-attachment: fixed; /* Keeps hearts fixed in background */
-    opacity: 0.99; /* Slight transparency for hearts */
+    opacity: 1; /* Slight transparency for hearts */
 }
 
 .love {
@@ -22,8 +22,8 @@ body {
 }
 
 .valentine {
-    font-size: 80px;
-    font-family: "Love Ya Like A Sister";
+    font-size: 90px;
+    font-family: "Caveat";
     text-align: center;
     color: red;
     font-weight: bold;
@@ -38,7 +38,7 @@ body {
 .hindi {
     font-family: "Charmonman";
     font-size: 38px;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
     color: rgb(0, 0, 0);
     background: rgba(251, 251, 251, 0.718); /* Light background for readability */
@@ -52,4 +52,43 @@ body {
 
 .lovesigns {
     color: #F76A6A;
+}
+
+
+.love {
+    font-family: "Love Ya Like A Sister", sans-serif;
+    text-align: center;
+    background-image: url("images/love.png");
+    background-size: 100px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: red;
+}
+
+.container {
+    margin-top: 20vh;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: pink;
+    color: white;
+    font-weight: bold;
+}
+
+.emoji {
+    font-size: 150px;
+}
+
+.message {
+    font-size: 25px;
+    font-weight: bold;
 }
