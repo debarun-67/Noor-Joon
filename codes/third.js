@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Sprinkle Effect
     function sprinkleConfetti() {
-        const duration = 10 * 1000; // 3 seconds
+        const duration = 5 * 1000; // 3 seconds
         const animationEnd = Date.now() + duration;
         const colors = ["#ff1493", "#ff69b4", "#ffb6c1", "#db7093", "#ff0000", "#FFD700", "#FFFFFF", "#800080"];
 
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
             confetti({
                 particleCount: 50,
                 angle: 70,
-                spread: 1000,
+                spread: 20000,
                 origin: { x: Math.random(), y: 0 },
                 colors: colors,
             });
@@ -32,5 +32,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Run animations
     sprinkleConfetti();
-    setTimeout(revealLetter, 5000);
+    setTimeout(revealLetter, 1000);
 });
