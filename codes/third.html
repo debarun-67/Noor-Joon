@@ -14,7 +14,9 @@
     <script defer src="./third.js"></script>
 </head>
 <body class="loved">
-    <div class="p">
+    <div class="love-letter" id="letter">
+        <div class="fold"></div>
+    <div class="content">
         <div class="shayari"><div class="transl">
 Toh yeh sirf aapke liye...
         </div>
@@ -107,5 +109,14 @@ Want to read the english translation?
 
         
     </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(() => {
+                document.getElementById("letter").classList.add("open");
+                startConfetti();  // Start the heart confetti effect
+            }, 1000);
+        });
+    </script>
 </body>
 </html>

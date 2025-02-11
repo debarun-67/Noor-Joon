@@ -203,31 +203,23 @@ button:nth-child(2) {
 
 
 /* Romantic Background */
+/* Romantic Background */
 body.start {
-    background: radial-gradient(circle, #ffdde1, #ee9ca7);
+    background: linear-gradient(to bottom, #ffdde1, #ff758c);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    font-family: 'Cursive', sans-serif;
+    font-family: 'Dancing Script', cursive;
 }
 
-/* Animated Floating Hearts */
+/* Floating Hearts */
 .heart-bg {
     position: fixed;
     width: 100%;
     height: 100%;
     z-index: -1;
-    overflow: hidden;
-}
-.heart-bg::before, .heart-bg::after {
-    content: "💖 💕 💓 💞 💗";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    font-size: 2rem;
-    opacity: 0.2;
     animation: float-hearts 15s linear infinite;
 }
 @keyframes float-hearts {
@@ -238,8 +230,8 @@ body.start {
 /* Container Styling */
 .container {
     text-align: center;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 0px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
     border-radius: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     max-width: 400px;
@@ -247,25 +239,25 @@ body.start {
 
 /* Title */
 .title {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #ff4d6d;
+    font-weight: bold;
 }
 
 /* Input Box */
 .answers {
     width: 80%;
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     border: 2px solid #ff4d6d;
     border-radius: 10px;
     outline: none;
     text-align: center;
-    margin-top: 15px;
     background: white;
     transition: all 0.3s ease-in-out;
 }
 .answers:focus {
-    border-color: #ee9ca7;
+    border-color: #ff758c;
     box-shadow: 0 0 10px #ff4d6d;
 }
 
@@ -273,7 +265,7 @@ body.start {
 .check-btn {
     background: #ff4d6d;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
@@ -282,6 +274,6 @@ body.start {
     transition: all 0.3s;
 }
 .check-btn:hover {
-    background: #ee9ca7;
+    background: #ff758c;
     transform: scale(1.1);
 }
