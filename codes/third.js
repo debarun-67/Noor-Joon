@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         (function frame() {
             confetti({
                 particleCount: 50,
-                angle: 70,
+                angle: 0,
                 spread: 20000,
                 origin: { x: Math.random(), y: 0 },
                 colors: colors,
