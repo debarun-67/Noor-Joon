@@ -1,7 +1,7 @@
 .loved {
     background-image: url("/images/love.png"); /* Path to heart image */
     background-size: 100px; /* Small heart size */
-    background-repeat: repeat; /* Repeats hearts across the page */
+    background-repeat: space; /* Repeats hearts across the page */
     background-position: center;
     background-attachment: fixed; /* Keeps hearts fixed in background */
     opacity: 1; /* Slight transparency for hearts */
