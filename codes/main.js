@@ -1,6 +1,6 @@
 function checkAnswer() {
     let answer = document.getElementById("answer").value.trim().toLowerCase();
-    if (answer.includes("rovers")) {
+    if (answer.includes("joon")) {
         window.location.href = "./codes/question.html";
     } else {
         window.location.href = "./codes/rejection.html";
